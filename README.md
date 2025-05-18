@@ -1,6 +1,6 @@
 # five_numbers_stats.by
 
-#This program takes five numbers as input, calculates the total, average, maximum, and minimum, then prints them.
+#This program takes five numbers as input, calculates the total, average, maximum, and minimum.
 
 
 five_num = input("enter five numbers separated by space: ")
