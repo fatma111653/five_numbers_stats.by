@@ -1,0 +1,10 @@
+#simple Python script that removes punctuation from input text and counts the words.
+```
+import string
+text = input("enter your text: ")
+words = len(text.split())
+clean_text = "".join(char for char in text if char not in string.punctuation)
+print(clean_text)
+words = len(clean_text.split())
+print(words)
+```
